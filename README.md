@@ -1,9 +1,10 @@
 # Diskord 🤖
 
 > JavaScript/Node.js library to create simple answer bots for [Discord](https://discordapp.com/) messaging app
+>
 > **This library is not production bullet-proof ready, use at your own risk**
 
-![Simple Discord Bot](https://media.giphy.com/media/l2S2z0CDcVsgfyuOZg/giphy.gif)
+![Simple Discord Bot](./example.gif)
 
 * `$ npm install -S diskord` OR
 * `$ yarn add diskord`
