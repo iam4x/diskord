@@ -1,12 +1,12 @@
-# 🤖 Simple Discord bot
+# Diskord 🤖
 
 > JavaScript/Node.js library to create simple answer bots for [Discord](https://discordapp.com/) messaging app
 > **This library is not production bullet-proof ready, use at your own risk**
 
 ![Simple Discord Bot](https://media.giphy.com/media/l2S2z0CDcVsgfyuOZg/giphy.gif)
 
-* `$ npm install -S simple-discord-bot` OR
-* `$ yarn add simple-discord-bot`
+* `$ npm install -S diskord` OR
+* `$ yarn add diskord`
 
 ## Requirements
 
@@ -20,8 +20,8 @@
 First, you will need to create your bot instance aka login to the bot.
 
 ```js
-const DiscordSimpleBot = require('simple-discord-bot');
-const bot = new DiscordSimpleBot({ token: 'XXXX' });
+const Diskord = require('diskord');
+const bot = new Diskord({ token: 'XXXX' });
 ```
 
 ### Register a simple answer
@@ -77,7 +77,7 @@ bot.registerAction({
 
 ## API
 
-### `new DiscordSimpleBot(SimpleBotOptions)`
+### `new Diskord(SimpleBotOptions)`
 
 ```js
 SimpleBotOptions = {

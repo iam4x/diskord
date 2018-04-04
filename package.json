@@ -1,5 +1,5 @@
 {
-  "name": "simple-discord-bot",
+  "name": "diskord",
   "version": "1.0.0",
   "description": "JavaScript library to simply create a Discord bot",
   "main": "dist/index.js",
